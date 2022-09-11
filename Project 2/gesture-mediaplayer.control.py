@@ -109,7 +109,7 @@ while capture.isOpened():
     # all_image = np.hstack((drawing, crop_image))
     # cv2.imshow('Contours', all_image)
 
-    # Close the camera if 'q' is pressed
+    # Close the camera if 'c' is pressed
     if cv2.waitKey(1) == ord('c'):
         break
 
